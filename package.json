@@ -10,9 +10,6 @@
   },
   "author": "Tao Cumplido",
   "license": "ISC",
-  "files": [
-    "*"
-  ],
   "devDependencies": {
     "@types/fs-extra": "^5.0.4",
     "@types/node-fetch": "^2.1.2",

@@ -2,8 +2,8 @@
   "name": "rxjs-mqtt",
   "version": "0.0.1",
   "description": "Reactive bindings for MQTT.js",
-  "main": "dist/src/index.js",
-  "typings": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -P src/tsconfig.json && copyfiles src/mqtt/* dist/mqtt -f",
     "prepare": "ts-node fetch-mqtt.ts"

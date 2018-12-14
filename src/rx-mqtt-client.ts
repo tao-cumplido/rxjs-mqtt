@@ -31,6 +31,10 @@ export class RxMqttClient {
     subscribe$: Observable<string>;
     unsubscribe$: Observable<string>;
 
+    get options() {
+        return this.client.options;
+    }
+
     constructor(url: string, options?: IClientOptions) {
         this.client = connect(url, options);
         this.client.setMaxListeners(Infinity);
